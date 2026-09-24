@@ -92,6 +92,10 @@ Use E for expr, B for base val, S for symbol, and I for integer.
 <base val> ::= <integer> | <symbol>
 ```
 
+```
+(foo [1 bar] (baz 2 [3 qux]))
+```
+
 <div style="height: 750px;"></div>
 
 
