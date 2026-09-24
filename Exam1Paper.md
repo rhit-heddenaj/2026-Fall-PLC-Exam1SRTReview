@@ -87,13 +87,13 @@ Use the following grammar and expression to create a grammar tree.
 Use E for expr, B for base val, S for symbol, and I for integer.
 
 ```
-<expr> ::= (<symbol> <expr> <expr>) | [<expr> <expr>] | <base val>
+<expr> ::= (<symbol> <expr> <expr>) | [<expr> <expr>] | <base_val>
 
-<base val> ::= <integer> | <symbol>
+<base_val> ::= <integer> | <symbol>
 ```
 
 ```
-(foo [1 bar] (baz 2 [3 qux]))
+(+ a [3 (* 4 5)])
 ```
 
 <div style="height: 750px;"></div>
