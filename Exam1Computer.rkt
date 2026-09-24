@@ -1,3 +1,5 @@
+;; These problems were created by the SRT monitoring CSSE304 last year, Garrett Doolittle, credit where credit is due! Thanks Garrett!
+
 #lang racket
 (provide double make-decreasing remove-symbols remove-instances-of count-occurences insert-sorted make-max-list expand-ranges
          expand-symbols multiply-by-index sum-deep max-depth flatten-list recurs-factory pipeline-creator total-sum
